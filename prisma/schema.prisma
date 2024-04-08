@@ -13,7 +13,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
+model User { // 尚未考慮第三方登入的狀況
   id        Int      @id @default(autoincrement())
   email     String   @unique
   password  String
@@ -22,7 +22,7 @@ model User {
 
 model Profile {
   id     Int    @id @default(autoincrement())
-  bio    String // 自我介紹
+  bio    String // 會員資料等等
   userId Int    @unique
   user   User   @relation(fields: [userId], references: [id])
 }
