@@ -26,4 +26,4 @@ RUN npm run build && ls -al dist/
 EXPOSE 3000
 
 # 定義容器啟動時執行的命令
-CMD ["node", "dist/src/main"]
+CMD ["node", "dist/main"]
