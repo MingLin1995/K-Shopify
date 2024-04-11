@@ -8,3 +8,9 @@
 3. 註冊、登入、個人資料功能優先
 4. 登入、註冊不帶Token，Token檢查寫在Middle ware
 5. response包一層輸出層，回應資料統一格式
+
+＝＝＝＝
+
+API 初步設計
+
+https://hackmd.io/xWrwyiBoRwKN29idnFhQag
