@@ -14,3 +14,7 @@
 API 初步設計
 
 https://hackmd.io/xWrwyiBoRwKN29idnFhQag
+
+資料庫 初步設計
+
+https://dbdiagram.io/d/K-Shopify-661941ef03593b6b61daf0a0
