@@ -1,7 +1,6 @@
 # 部署環境建立中...
 
-本地開發要新增資料庫時，要執行 npx prisma migrate dev  
-注意 env 要改為 localhost 上正式環境用 docker時 才會用db
+本地開發要新增資料庫時，要執行 npx prisma migrate dev注意 env 要改為 localhost 上正式環境用 docker時 才會用db
 
 1. 資料庫 ermodel
 2. API 規格
@@ -13,7 +12,11 @@
 
 API 初步設計
 
-https://hackmd.io/xWrwyiBoRwKN29idnFhQag
+docker-compose build
+
+docker-compose up
+
+http://localhost:3000/api
 
 資料庫 初步設計
 
